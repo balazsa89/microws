@@ -1,0 +1,6 @@
+{
+    "require": {
+        "evolution/codeigniterdb":  "dev-master"
+
+    }
+}

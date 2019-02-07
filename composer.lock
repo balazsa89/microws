@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b6f0bb7956edfadf141a38bbbf48c5d6",
+    "content-hash": "da6f8e4e07f8772e183d6796c2dc7319",
+    "packages": [
+        {
+            "name": "evolution/codeigniterdb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/evolutionscript/codeigniter-database-standalone.git",
+                "reference": "4cd03750f0e42b5df555cf592700548e58076ac2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/evolutionscript/codeigniter-database-standalone/zipball/4cd03750f0e42b5df555cf592700548e58076ac2",
+                "reference": "4cd03750f0e42b5df555cf592700548e58076ac2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Evolution\\CodeIgniterDB\\": "src/"
+                },
+                "files": [
+                    "src/DB.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "EvolutionScript",
+                    "homepage": "http://www.evolutionscript.com/"
+                }
+            ],
+            "description": "Use the database library separately from CodeIgniter 3",
+            "homepage": "https://github.com/evolutionscript/codeigniter-database-standalone",
+            "keywords": [
+                "codeigniter",
+                "database",
+                "mysql",
+                "mysqli",
+                "pdo"
+            ],
+            "time": "2015-12-24 07:27:53"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "evolution/codeigniterdb": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
